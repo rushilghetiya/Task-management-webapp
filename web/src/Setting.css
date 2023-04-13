@@ -1,0 +1,158 @@
+.setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .setting>p{
+    margin: 0 10px;
+    font-size: larger;
+
+  }
+
+
+  input[type="checkbox"] {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgb(0, 0, 0);
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    /* box-shadow: inset 0 0 5px rgb(0 0 0 / 50%); */
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: translateX(100%);
+    background: #fff;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: #00ed64;
+  }
+
+  .settingMain{
+    /* padding-top:20px ; */
+    display: flex;
+    flex-direction:column ;
+    
+  }
+  .settingMain>div{
+    margin: auto;
+
+  }
+  .copyLink{
+      margin:0 20px;
+      margin-top: 30px;
+    border: none;
+    outline: none;
+    background: black;
+    padding: 10px 20px;
+  border-radius: 4px;
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+.accessDiv{
+    display: flex;
+    flex-direction: column;
+   
+padding-top: 30px;
+}
+
+.accessDiv>p{
+  font-size: 22px;
+font-weight: 500;
+
+  font-family: poppins, sans-serif;
+
+}
+
+.mailInput{
+    outline: none;
+ padding:5px 10px;
+font-size: 16px;
+font-family: poppins,sans-serif;
+font-weight: 300;
+border-radius: 3px;
+margin-top: 20px;
+    background: none;
+}
+
+.addBtn{
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: poppins,sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+
+
+
+
+}
+
+.tagDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+margin-top: 20px;
+/* border: 1px solid black; */
+max-width: 1000px;
+}
+
+.tag{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: 500;
+    font-family: poppins,sans-serif;
+    /* background-color: black; */
+    /* color: #fff; */
+}
+
+
+.tagBtn{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    margin: auto;
+     padding: 2px 5px;
+     /* color: #fff; */
+}
+.backBtn{
+    margin: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 500px;
+    width: 50px;
+    height:50px ;
+    padding: 8px;
+
+
+}

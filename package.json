@@ -1,0 +1,26 @@
+{
+  "name": "react-tasks-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd web && npm start",
+    "server": "cd server && nodemon app.js",
+    "install": "cd web && npm install && cd ../server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webStrake/react-tasks-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webStrake/react-tasks-manager/issues"
+  },
+  "homepage": "https://github.com/webStrake/react-tasks-manager#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "mongodb": "^5.2.0"
+  }
+}
