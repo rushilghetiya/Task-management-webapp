@@ -5,7 +5,7 @@ import { auth, provider } from "../../firebase";
 import { signOut } from "firebase/auth";
 import Cookies from "js-cookie";
 import { Link } from "react-router-dom";
-import { HOST } from "../../API";
+import { API_VAR } from "../../API";
 import { toast } from "react-toastify";
 import { MdTask } from "react-icons/md";
 // import { useNavigate } from "react-router-dom";
@@ -48,7 +48,7 @@ function Navbar({signInWithGoogle}) {
 
  <div className="div2">
           <button onClick={
-            ()=>{navigator.clipboard.writeText(`${HOST}/share/${Cookies.get("uId")}`)
+            ()=>{navigator.clipboard.writeText(`${API_VAR}/share/${Cookies.get("uId")}`)
           toast.success("Link Copied!!")
           }
           }>Copy Link </button>

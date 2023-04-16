@@ -59,7 +59,7 @@ function Home() {
       Cookies.set("email", auth.currentUser.email);
       Cookies.set("isAuth", true);
       // setCurrentUser(auth.currentUser.email);
-      window.location.pathname = `/getTask/${id}`;
+      // window.location.pathname = `/getTask/${id}`;
 
       // navigate(`/getTask/${auth.currentUser.uId}`);
       // localStorage.setItem("isAuth",true);
