@@ -6,13 +6,13 @@ import { MdOutlineDone } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { addtask, getTask, deleteTask, updateTask, getSetting, getSharedTask } from "./API";
+import { updateTask,  getSharedTask } from "./API";
 import Cookies from "js-cookie";
 import { useParams } from "react-router-dom";
 // import Navbar from "./components/navbar/Navbar";
-import { auth, provider } from "./firebase";
+import { auth } from "./firebase";
 import { useNavigate } from "react-router-dom";
-import { SpinnerDiamond } from 'spinners-react';
+// import { SpinnerDiamond } from 'spinners-react';
 import { BiArrowBack } from "react-icons/bi";
 
 export default function Share() {
@@ -188,6 +188,7 @@ export default function Share() {
     // getMailHandler();
     getTaskHandler();
     // console.log("load",islo)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   // console.log(taskList);
   const goBackHandler=async()=>{

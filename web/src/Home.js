@@ -32,7 +32,7 @@ function Home() {
   const [taskList, setTaskList] = useState([]);
   const [extraList, setExtraList] = useState([]);
   const clcName = Cookies.get("uId");
-  const ids = useParams();
+  // const ids = useParams();
   // const auths = Cookies.get("isAuth");
   // const [currentUser, setCurrentUser] = useState('');
 
@@ -59,7 +59,7 @@ function Home() {
       Cookies.set("email", auth.currentUser.email);
       Cookies.set("isAuth", true);
       // setCurrentUser(auth.currentUser.email);
-      // window.location.pathname = `/getTask/${id}`;
+      window.location.pathname = `/getTask/${id}`;
 
       // navigate(`/getTask/${auth.currentUser.uId}`);
       // localStorage.setItem("isAuth",true);
@@ -196,6 +196,7 @@ function Home() {
   const doneTaskHandler = async (taskId,elem) => {
     if (auth.currentUser) {
       const owner=elem.owner
+      setIsDone(true);
 
       axios
         .post(`${updateTask}/${taskId}`, {
@@ -249,6 +250,7 @@ function Home() {
     }
 if(Cookies.get("uId"))
     getTaskHandler();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   // console.log(taskList);
 

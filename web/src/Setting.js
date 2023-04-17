@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import { toast } from "react-toastify";
 import axios from "axios";
-import { HOST, defaultSetting, deleteMail, getSetting, setting, settingShare } from "./API";
+import { HOST,  deleteMail, getSetting, setting, settingShare } from "./API";
 import ReactSwitch from 'react-switch';
-import { auth } from "./firebase";
+// import { auth } from "./firebase";
 
 function Setting() {
   const auths = Cookies.get("uId");
@@ -76,6 +76,7 @@ useEffect(() => {
   getMailHandler();
 
 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [])
 
     

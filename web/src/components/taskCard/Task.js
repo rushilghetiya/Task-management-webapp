@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import React, { useState } from "react";
+import React from "react";
 import "./Task.css";
 import { MdDelete, MdModeEdit, MdOutlineDoneAll } from "react-icons/md";
 import ReactSwitch from "react-switch";

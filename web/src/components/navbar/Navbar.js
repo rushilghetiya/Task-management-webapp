@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { auth, provider } from "../../firebase";
+import { auth } from "../../firebase";
 // import { signInWithPopup } from "firebase/auth";
 import { signOut } from "firebase/auth";
 import Cookies from "js-cookie";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { HOST } from "../../API";
 import { toast } from "react-toastify";
 import { MdTask } from "react-icons/md";
