@@ -8,7 +8,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { addtask, getTask, deleteTask, updateTask, getAllTasks } from "./API";
 import Cookies from "js-cookie";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import { auth, provider } from "./firebase";
 // import 'firebase/compat/auth';

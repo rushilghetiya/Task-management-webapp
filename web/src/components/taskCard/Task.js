@@ -39,7 +39,7 @@ function Task({
       <p className="cardText">{
         links?.map((elem, index)=>{
           return (
-            <span class="badge text-bg-light mx-1 my-1"><a href={elem} target="_blank">{elem}</a></span>
+            <span class="badge text-bg-light mx-1 my-1"><a href={elem} target="_blank" rel="noreferrer">{elem}</a></span>
           )
         })
       }</p>
