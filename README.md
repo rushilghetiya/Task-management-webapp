@@ -30,12 +30,15 @@ Add your connection string along with the database name task as MongoDB is being
 
 ## Demo
 
+[video Demo.webm](https://github.com/ank-2222/Task-management-webapp/assets/76547947/b5896cee-75d8-485e-af0b-62aede618d38)
 
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/ank-2222/Task-management-webapp/assets/76547947/843f532a-2213-40f6-8f18-0019606bc598)
+![image](https://github.com/ank-2222/Task-management-webapp/assets/76547947/b73e921b-330a-4039-9976-2b25570bbc65)
+
 
 
 ## Authors
