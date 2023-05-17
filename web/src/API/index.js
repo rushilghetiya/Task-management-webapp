@@ -1,8 +1,6 @@
 
-// const API_VAR="https://taskx-server.onrender.com/api";
 const API_VAR="http://localhost:5050/api";
 
-// export const HOST='https://taskx-server.onrender.com';
 export const HOST='http://localhost:3000';
 
 export const addtask =`${API_VAR}/tasks`;
