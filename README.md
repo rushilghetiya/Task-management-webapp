@@ -40,12 +40,6 @@ Add your connection string along with the database name task as MongoDB is being
 ![image](https://github.com/ank-2222/Task-management-webapp/assets/76547947/b73e921b-330a-4039-9976-2b25570bbc65)
 
 
-
-## Authors
-
-- [@ank-2222](https://github.com/ank-2222)
-
-
 ## Tech Stack
 
 **Client:** React, CSS, Axios
@@ -53,8 +47,5 @@ Add your connection string along with the database name task as MongoDB is being
 **Server:** Node, Express, MongoDb, Firebase
 
 **package:** Npm
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ankitkumar.onrender.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-kumar-709b99162/)
 
 
